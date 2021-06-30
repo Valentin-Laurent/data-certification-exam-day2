@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nThe coefficient is positive (2252),\nso the median age is associated with a positive effect on the number of crime incidents.\n",
+    "T_STAT": "\nThe t-statistic associated with the median age is 1.820\nIt is computed doing the ratio between the coefficient and the standard deviation.\n",
+    "P_VALUE": "\nWith a 95% confidence level, we should have p < 0.05, which is not the case here.\nWith a 90% confidence level, we should have p < 0.10, which is not the case either.\nActually, a p value of 0.128 is very high, meaning that the median age seems a priori not to be correlated to the number of crimes.\n",
+    "INCREASE": "\nHolding all other regressors constant,\nthe total number of incidents decrease by about 2000 (2115.1839)\nwhen the share of families with a married couple\nincreases by 1 percentage point in the district.\n",
+    "LIMITATIONS": "\nTo use a multi-linear regression in the first place,\nwe have to make sure features are not correlated.\nIn that case, some features are clearly correlated:\nFor example: MEDIAN_AGE and PERC_OF_30_34\nAnother one: PERC_LESS_THAN_HIGH_SCHOOL and PERC_COLLEGE_GRADUATES\n"
+}
